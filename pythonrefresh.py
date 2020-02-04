@@ -8,7 +8,7 @@
 # print(age)
 # print("Hello my name is {}. I am {} years old from Mars".format(name, age))
 
-### exercise 1 
+### exercise 
 # I have given you two variables, name and age. Use the format() function to create a sentence that reads:
 # Hi my name is Julie and I am 42 years old
 # Set that equal to the variable called sentence
@@ -43,3 +43,16 @@ todayIsCold = True
 # single comment
 """ multiple rows 
 of comment """
+
+### exercise
+# Make an if-else statement where if year is between 2000 and 2100 (including both numbers), then print out:
+# Welcome to the 21st century!
+# Else print out:
+# You are before or after the 21st century
+
+year = 2050 
+
+if 2100 >= year >= 2000 :
+    print("Welcome to the 21st century")
+else:
+    print("You are before or after the 21st century")
