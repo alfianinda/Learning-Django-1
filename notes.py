@@ -1,7 +1,12 @@
-#django-admin help
+# django install using pip
+# pip3 install django==2.0.2
+
+# django-admin help
 
 # Creating a new project 
 # django-admin startproject projectname 
+
+# python manage.py help
 
 # Add an app to a project 
 # python3 manage.py startapp appname
