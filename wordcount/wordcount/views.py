@@ -11,6 +11,9 @@ import operator
 def home(request):
     return render(request, "home.html")
 
+def about(request):
+    return render(request, "about.html")
+
 def count(request):
     fulltext = request.GET["fulltext"]
     print(fulltext)
