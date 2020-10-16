@@ -1,5 +1,22 @@
+### basic steps ###
+
+# https://docs.djangoproject.com/
+
 # django install using pip
 # pip3 install django==2.0.2
+
+# django install virtual environment
+# pip3 install virtualenv
+
+# making virtualenv dir
+# virtualenv dirname
+
+# activate venv
+# source myvenv/bin/activate
+# or for windows:
+# myvenv/Scripts/activate.bat
+
+# >>> exit()
 
 # django-admin help
 
@@ -9,19 +26,36 @@
 # python manage.py help
 
 # Add an app to a project 
-# python3 manage.py startapp appname
+# python manage.py startapp appname
 
 # Starting the server 
-# python3 manage.py runserver
+# python manage.py runserver
 
 # Creating migrations 
-# python3 manage.py makemigrations
+# python manage.py makemigrations
 
 # Migrate the database 
-# python3 manage.py migrate
+# python manage.py migrate
 
 # Creating a Super User for the admin panel 
-# python3 manage.py createsuperuser
+# python manage.py createsuperuser
 
 # Collecting static files into one folder 
-# python3 manage.py collectstatic
+# python manage.py collectstatic
+
+# .gitignore
+# open gitignore.io and type "django", then copy the codes
+
+### App inside project ###
+
+# create a blog models, ex:
+    # title
+    # pub_date
+    # body
+    # image
+# add the blog app to the settings 
+    # copy class name from apps.py
+    # put inside 'installed_apps'
+# create a migration
+# migrate
+# add to the admin
